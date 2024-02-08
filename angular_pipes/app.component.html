@@ -1,0 +1,63 @@
+<!-- <p>Seconds changing in Time: {{ time$ | async | date:'mediumTime' }}</p> -->
+<section>
+  <div>
+    <h2>text-format-pipes</h2>
+    <p>Date with uppercase: {{presentDate | date: 'fullDate' | uppercase}}</p>
+    <p>Date with lowercase: {{presentDate | date: 'medium' | lowercase}}</p>
+    <p>Today's date(Default) :- {{presentDate| date: 'medium' | uppercase}}</p>
+    </div>
+    <hr>
+    <div>
+    <h2>slice-pipes</h2>
+    <p>Start to End: {{Fruits | slice: 0}}</p>
+    <p>Negative: {{Fruits | slice: -2}}</p>
+    <p>Positive: {{Fruits | slice: 1}}</p>
+  </div>
+</section>
+<hr>
+<section>
+  <div> 
+    <h2>date-pipes</h2>
+    <!--<p>Today's date(Default) :- {{presentDate}}</p>-->
+    <p>Short date :- {{presentDate | date: 'shortDate' }}</p>
+    <p>Medium date :- {{presentDate | date: 'mediumDate'}}</p>
+    <p>Long date :- {{presentDate | date: 'longDate'}}</p>
+    <!--<h3>Date with Parameters</h3>
+    <p>Formatted Date: {{presentDate | date: 'M/dd/yyyy'}}</p>
+    <p>Hours and minutes: {{presentDate | date: 'h:mm'}}</p>-->
+  </div>
+</section>
+<hr>
+<section>
+  <div>
+    <h3>currency-pipes</h3>
+    <p> {{x | currency}} </p>
+    <p> {{y | currency}} </p>
+    <p> {{z| currency}} </p>
+  </div>
+  <hr>
+  <div>
+    <h3>decimal-pipes</h3>
+    <p>{{x | number: '2.0-1'}}</p>
+    <p>{{y | number: '2.0-1'}}</p>
+    <p>{{z | number: '2.0-1'}}</p>
+  </div>
+  <hr>
+  <div>
+    <h3>percent-pipes</h3>
+    <p>{{x | percent: '2.0-1':'en'}}</p>
+    <p>{{y | percent: '2.0-1':'en'}}</p>
+    <p>{{z | percent: '2.0-1':'en'}}</p>
+  </div>
+  <hr>
+</section>
+<hr>
+
+<section>
+  <div>
+    <h3>json-pipe</h3>
+    <pre>{{ data | json }}</pre>
+    <pre>{{ info | json }}</pre>
+    <pre>{{ zxc | json }}</pre>
+  </div>
+</section>
