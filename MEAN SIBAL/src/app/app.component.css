@@ -1,0 +1,67 @@
+/* Styles for the Books Application */
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Input styling */
+  input {
+    display: block;
+    width: calc(100% - 16px); /* Adjusted width to accommodate padding */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button styling */
+  button {
+    display: block;
+    width: calc(100% - 16px); /* Adjusted width to accommodate padding */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Book item styling */
+  h3 {
+    margin-top: 20px;
+  }
+  
+  h3 b {
+    margin-right: 10px;
+  }
+  
+  /* Delete button styling */
+  button.delete-btn {
+    background-color: #dc3545;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #bd2130;
+  }
+  
+  /* Default input field and button styling */
+  input[type="text"],
+  input[type="number"] {
+    color: #000;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
