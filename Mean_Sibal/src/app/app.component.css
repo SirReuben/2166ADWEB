@@ -1,0 +1,60 @@
+/* Center the content and add background color */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjusted height */
+    background-color: #f2f2f2; /* Background color */
+  }
+  
+  /* Style for the title */
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for input fields */
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  /* Style for the Add button */
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for book details */
+  h3 {
+    margin-top: 20px;
+  }
+  
+  b {
+    display: inline-block;
+    width: 150px;
+    font-weight: normal;
+  }
+  
+  /* Style for delete button */
+  button.delete-btn {
+    background-color: #f44336;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
